@@ -157,7 +157,7 @@
   text-align: center;
   color: #02C9AF;
   font-family: 'Fungis';
-  font-size: 3px;
+  font-size: small;
   transform-style: preserve-3d;
   transition: transform 0.5s;
   cursor: pointer;
@@ -182,7 +182,7 @@
 .card .back {
   transform: rotateY(180deg);
   color: #fff;
-  font-size: 8px;
+  font-size: 4px;
 }
 
 @media screen and (min-width: 1024px) {
