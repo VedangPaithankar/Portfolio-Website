@@ -182,14 +182,14 @@
 .card .back {
   transform: rotateY(180deg);
   color: #fff;
-  font-size: 8px;
+  font-size: 4px;
 }
 
 @media screen and (min-width: 1024px) {
   .card {
     font-size: xx-large;
-    width: 375px;
-    height: 375px;
+    width: 350px;
+    height: 350px;
   }
   .card .back {
     font-size: 18px;
@@ -217,33 +217,4 @@ a {
 
 .background-color{
   background-color: #049CE4;
-}
-
-/* styles.css */
-.FoodysParadise {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items horizontally in column layout */
-  
-}
-
-@media screen and (min-width: 768px) {
-  .FoodysParadise {
-    flex-direction: row;
-    justify-content: center; /* Center items horizontally in row layout */
-  }
-}
-
-.imgs {
-  display: flex;
-  justify-content: center; /* Center items horizontally in mobile screen */
-}
-
-.imgs img {
-  width: 80%; /* Adjust the percentage according to your design needs */
-}
-
-.fp_info {
-  margin-top: 10px;
-  width: max-content;
 }
