@@ -11,8 +11,12 @@ import WA1 from "../assets/wa1.png";
 import WA2 from "../assets/wa2.png";
 import MR1 from "../assets/mr1.png";
 import MR2 from "../assets/mr2.png";
+import { useMediaQuery } from 'react-responsive';
 
 const Portfolio = () => {
+
+    const isMobile = useMediaQuery({ maxWidth: 767 });
+
     const infoCardProps1 = {
         image1: FP1,
         image2: FP2,
@@ -86,11 +90,22 @@ const Portfolio = () => {
     return (
         <div className="Portfolio relative z-0 mt-10 md:mt-20 lg:mt-40">
             <h1 className="font-fam text-[#02C9AF] text-2xl md:text-4xl lg:text-6xl text-center underline underline-offset-8 decoration-[#02C9AF]">PORTFOLIO</h1>
-            <div className="justify-center ">
-                <InfoCard1 {...infoCardProps1} />
-                <InfoCard2 {...infoCardProps2} />
-                <InfoCard3 {...infoCardProps3} />
-                <InfoCard4 {...infoCardProps4} />
+            <div className="justify-center">
+            {isMobile ? (
+                <>
+                    <InfoCard1 {...infoCardProps1} />
+                    <InfoCard1 {...infoCardProps2} />
+                    <InfoCard1 {...infoCardProps3} />
+                    <InfoCard1 {...infoCardProps4} />
+                </>
+                ) : (
+                <>
+                    <InfoCard1 {...infoCardProps1} />
+                    <InfoCard2 {...infoCardProps2} />
+                    <InfoCard3 {...infoCardProps3} />
+                    <InfoCard4 {...infoCardProps4} />
+                </>
+            )}
             </div>
         </div>
     );
