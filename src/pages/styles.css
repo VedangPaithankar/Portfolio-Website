@@ -199,8 +199,8 @@
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .card {
     font-size: large;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   .card .back {
     font-size: 10px;
