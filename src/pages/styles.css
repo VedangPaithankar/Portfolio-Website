@@ -157,7 +157,7 @@
   text-align: center;
   color: #02C9AF;
   font-family: 'Fungis';
-  font-size: small;
+  font-size: 3px;
   transform-style: preserve-3d;
   transition: transform 0.5s;
   cursor: pointer;
