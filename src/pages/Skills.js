@@ -23,7 +23,7 @@ const Skills = () => {
 
     const UIUX = {
         front: "UI/UX Enhancement",
-        back: "In the realm of Python Prowess, my projects span from VoxBot, a conversational AI companion, to Data Analyser, utilizing Python's versatility for GUI and sentiment analysis. From AI-powered conversations to data-driven insights, Python is the tool of choice in my coding arsenal.",
+        back: "From the sleek interfaces of VoxBot and Foodys Paradise to the seamless user experience of the Blogging Website, my UI/UX Enhancement skills shine. Focused on creating visually appealing designs and ensuring user-friendly interactions, these projects reflect my commitment to enhancing the overall user experience.",
     };
 
     const Data = {
